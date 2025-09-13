@@ -5,10 +5,6 @@ fn main() {
     buff.push(random_bytes16());
     buff.push(random_bytes16());
     buff.push(random_bytes16());
-/*    for row in buff {
-        println!("{:02X?}", &row)
-    }
-*/
     print_buff(buff, 0)
 }
 
