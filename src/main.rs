@@ -1,6 +1,10 @@
 use rand::Rng;
 fn main() {
-    println!("Hello, world!");
+
+    let mut file_bytes: Vec<u8> = Vec::new();
+    let mut current_address: u64 = 0;
+
+
     let mut buff: Vec<[u8; 16]> = Vec::new();
     buff.push(random_bytes16());
     buff.push(random_bytes16());
